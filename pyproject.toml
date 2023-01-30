@@ -6,8 +6,10 @@ authors = ["Aditya Dhara <adharacapybara@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+feast = "^0.24.0"
 
 [tool.poetry.dev-dependencies]
+ipython = "^8.4.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
